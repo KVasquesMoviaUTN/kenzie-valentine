@@ -14,8 +14,13 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "For Kenzie ❤️",
-  description: "A special Valentine's surprise for Kenzie.",
+  title: "Para el amor de mi vida ❤️",
+  description: "Kenzie, eres lo mejor que me ha pasado. He preparado esta sorpresa para ti.",
+  openGraph: {
+    title: "Para el amor de mi vida ❤️",
+    description: "Kenzie, un pequeño detalle para recordarte cuánto te amo.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

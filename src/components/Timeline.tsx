@@ -9,28 +9,32 @@ const MEMORIES = [
 		title: "August 4, 2025",
 		date: "A love story is born",
 		description: "Every love story is beautiful, but ours is my favorite.",
-		image: "/memories/miami.jpg"
+		image: "/memories/miami.jpg",
+		objectPosition: "center 20%"
 	},
 	{
 		id: 2,
 		title: "September 4, 2025",
 		date: "(Not) Just another date",
 		description: "Food was ok, but you were amazing.",
-		image: "/memories/september-2025.jpg"
+		image: "/memories/september-2025.jpg",
+		objectPosition: "center 30%"
 	},
 	{
 		id: 3,
 		title: "October 10, 2025",
 		date: "You said yes!",
 		description: "The Happiest day of my life.",
-		image: "/memories/proposal.jpg"
+		image: "/memories/proposal.jpg",
+		objectPosition: "center 25%"
 	},
 	{
 		id: 4,
 		title: "January 30, 2026",
 		date: "Our Journey Continues",
 		description: "Looking forward to a lifetime of memories.",
-		image: "/memories/recoleta.jpg"
+		image: "/memories/recoleta.jpg",
+		objectPosition: "center 20%"
 	},
 ];
 
@@ -68,6 +72,7 @@ export default function Timeline() {
 								alt={memory.title}
 								fill
 								className="object-cover hover:scale-110 transition-transform duration-500"
+								style={{ objectPosition: (memory as any).objectPosition || "center" }}
 							/>
 						</div>
 						<div className="flex flex-col gap-2 w-full flex-grow mt-2">

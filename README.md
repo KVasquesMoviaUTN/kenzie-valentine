@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# For Kenzie ❤️
+
+**Status:** Deployed directly to your heart.  
+**Version:** 1.0.0 (Forever)
+
+## Overview
+
+This repository contains the source code for a single-page application designed with one specific user in mind: **Kenzie**. It combines modern frontend architecture with timeless romance to create a digital experience that validates our connection.
+
+Built with **Next.js 15**, **Tailwind CSS**, and **Framer Motion**, this project is highly optimized for performance, accessibility, and emotional impact.
+
+## The Architecture of Affection
+
+The application relies on a component-based structure to deliver its payload of love:
+
+*   **`Hero.tsx`**: Initializes the romantic context with a fade-in animation and a floating heart SVG. It sets the `mood` state to `romantic`.
+*   **`Timeline.tsx`**: A chronological rendering of our shared history. It maps over an array of `Memory` objects, rendering them as interactive cards with hover states that symbolize how you lift me up.
+*   **`InteractiveHeart.tsx`**: An event-driven component. On `click`, it triggers a `confetti` explosion and returns a random string from the `reasonsILoveYou` array.
+*   **`Proposal.tsx`**: The core logic. contains a critical Boolean question.
+    *   The **"No"** button implements collision detection and random velocity vectors to ensure it remains unclickable (an infinite loop of evasion).
+    *   The **"Yes"** button triggers a system-wide celebration event.
+
+## Tech Stack
+
+*   **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
+*   **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+*   **Animation**: [Framer Motion](https://www.framer.com/motion/) & [Canvas Confetti](https://www.npmjs.com/package/canvas-confetti)
+*   **Icons**: [Lucide React](https://lucide.dev/)
+*   **Audio**: Custom `HTMLAudioElement` integration for the soundtrack.
 
 ## Getting Started
 
-First, run the development server:
+To run this locally (and relive the moment):
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/kalil/kenzie-valentine.git
+    cd kenzie
+    ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4.  **Open your browser:**
+    Navigate to [http://localhost:3000](http://localhost:3000)
 
-## Learn More
+## Deployment
 
-To learn more about Next.js, take a look at the following resources:
+This project is ready to be deployed to Vercel, Netlify, or your heart.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Proprietary.** This code and the love it represents are exclusive to Kenzie. Unauthorized forks of this relationship are strictly prohibited.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Made with ❤️, TypeScript, and a lot of coffee.*

@@ -27,7 +27,7 @@ export default function Hero() {
 					/>
 				</motion.div>
 
-				<h1 className="font-serif text-5xl md:text-7xl text-charcoal tracking-wide">
+				<h1 className="font-serif text-5xl md:text-7xl text-charcoal tracking-wide text-center px-4">
 					PARA EL AMOR DE MI VIDA
 				</h1>
 

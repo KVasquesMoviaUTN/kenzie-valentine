@@ -9,7 +9,7 @@ const MEMORIES = [
 		title: "August 4, 2025",
 		date: "A love story is born",
 		description: "Every love story is beautiful, but ours is my favorite.",
-		image: "/memories/august-2025.jpg"
+		image: "/memories/miami.jpg"
 	},
 	{
 		id: 2,

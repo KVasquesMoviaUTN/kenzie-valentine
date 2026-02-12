@@ -60,9 +60,9 @@ export default function Timeline() {
 							boxShadow: "0px 10px 30px rgba(212, 165, 165, 0.4)",
 							y: -5
 						}}
-						className="bg-white/50 backdrop-blur-sm p-4 rounded-2xl border border-dusty-rose/20 cursor-pointer flex flex-col items-center text-center h-[400px] justify-between gap-4 transition-all hover:bg-white/80"
+						className="bg-white/50 backdrop-blur-sm p-4 rounded-2xl border border-dusty-rose/20 cursor-pointer flex flex-col items-center text-center transition-all hover:bg-white/80"
 					>
-						<div className="w-full h-56 relative rounded-lg overflow-hidden shadow-sm">
+						<div className="w-full h-56 relative rounded-lg overflow-hidden shadow-sm mb-4">
 							<Image
 								src={memory.image}
 								alt={memory.title}
@@ -70,10 +70,10 @@ export default function Timeline() {
 								className="object-cover hover:scale-110 transition-transform duration-500"
 							/>
 						</div>
-						<div className="flex flex-col gap-2 pb-4 w-full">
-							<h3 className="font-serif text-xl text-charcoal w-full px-2">{memory.title}</h3>
-							<p className="text-sm text-dusty-rose font-medium uppercase tracking-wider w-full">{memory.date}</p>
-							<p className="text-sm text-charcoal/70 w-full px-4">{memory.description}</p>
+						<div className="flex flex-col gap-2 w-full flex-grow">
+							<h3 className="font-serif text-xl text-charcoal w-full px-2 text-center">{memory.title}</h3>
+							<p className="text-sm text-dusty-rose font-medium uppercase tracking-wider w-full text-center">{memory.date}</p>
+							<p className="text-sm text-charcoal/70 w-full px-4 text-center">{memory.description}</p>
 						</div>
 					</motion.div>
 				))}

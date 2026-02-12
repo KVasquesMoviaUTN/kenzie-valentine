@@ -9,8 +9,8 @@ export default function Proposal() {
 	const [noBtnPosition, setNoBtnPosition] = useState({ x: 0, y: 0 });
 
 	const handleNoHover = () => {
-		const x = Math.random() * 200 - 100;
-		const y = Math.random() * 200 - 100;
+		const x = Math.random() * 200;
+		const y = Math.random() * 400;
 		setNoBtnPosition({ x, y });
 	};
 

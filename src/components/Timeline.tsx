@@ -10,7 +10,7 @@ const MEMORIES = [
 		date: "A love story is born",
 		description: "Every love story is beautiful, but ours is my favorite.",
 		image: "/memories/miami.jpg",
-		objectPosition: "center 20%"
+		objectPosition: "center 0%"
 	},
 	{
 		id: 2,
@@ -18,7 +18,7 @@ const MEMORIES = [
 		date: "(Not) Just another date",
 		description: "Food was ok, but you were amazing.",
 		image: "/memories/september-2025.jpg",
-		objectPosition: "center 30%"
+		objectPosition: "center 40%"
 	},
 	{
 		id: 3,
@@ -26,7 +26,7 @@ const MEMORIES = [
 		date: "You said yes!",
 		description: "The Happiest day of my life.",
 		image: "/memories/proposal.jpg",
-		objectPosition: "center 25%"
+		objectPosition: "center 40%"
 	},
 	{
 		id: 4,
@@ -66,7 +66,7 @@ export default function Timeline() {
 						}}
 						className="bg-white/50 backdrop-blur-sm p-4 rounded-2xl border border-dusty-rose/20 cursor-pointer flex flex-col items-center text-center transition-all hover:bg-white/80 h-full min-h-[380px]"
 					>
-						<div className="w-full h-56 relative rounded-lg overflow-hidden shadow-sm mb-4">
+						<div className="w-full h-72 md:h-56 relative rounded-lg overflow-hidden shadow-sm mb-4">
 							<Image
 								src={memory.image}
 								alt={memory.title}

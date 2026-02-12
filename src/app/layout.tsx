@@ -15,15 +15,15 @@ const lato = Lato({
 
 export const metadata: Metadata = {
   title: "For Kenzie ❤️",
-  description: "A special Valentine's surprise for Kenzie.",
+  description: "A special Valentine's surprise for my hermosa.",
   openGraph: {
     title: "For Kenzie ❤️",
-    description: "A special Valentine's surprise for Kenzie.",
+    description: "A special Valentine's surprise for my hermosa.",
     type: "website",
   },
   twitter: {
     title: "For Kenzie ❤️",
-    description: "A special Valentine's surprise for Kenzie.",
+    description: "A special Valentine's surprise for my hermosa.",
   },
 };
 

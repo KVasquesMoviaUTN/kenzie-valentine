@@ -45,12 +45,11 @@ export default function InteractiveHeart() {
 					transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
 				>
 					<Heart
-						size={200}
-						className="text-dusty-rose fill-dusty-rose hover:fill-dusty-rose/80 transition-colors drop-shadow-xl"
+						className="text-dusty-rose fill-dusty-rose hover:fill-dusty-rose/80 transition-colors drop-shadow-xl w-[150px] h-[150px] md:w-[200px] md:h-[200px]"
 						strokeWidth={1}
 					/>
 				</motion.div>
-				<p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white font-serif text-xl pointer-events-none">
+				<p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white font-serif text-lg md:text-xl pointer-events-none">
 					Click Me
 				</p>
 			</motion.div>
@@ -63,7 +62,7 @@ export default function InteractiveHeart() {
 							initial={{ opacity: 0, y: 20 }}
 							animate={{ opacity: 1, y: 0 }}
 							exit={{ opacity: 0, y: -20 }}
-							className="font-serif text-2xl md:text-3xl text-charcoal text-center max-w-lg px-4"
+							className="font-serif text-xl md:text-3xl text-charcoal text-center max-w-lg px-6 leading-relaxed"
 						>
 							&quot;{reason}&quot;
 						</motion.p>

@@ -52,16 +52,16 @@ export default function Proposal() {
 					transition={{ duration: 0.5 }}
 					className="text-center flex flex-col items-center gap-8"
 				>
-					<h2 className="font-serif text-4xl md:text-6xl text-charcoal">
+					<h2 className="font-serif text-3xl sm:text-4xl md:text-6xl text-charcoal px-6 leading-tight">
 						Kenzie, will you be my Valentine?
 					</h2>
 
-					<div className="flex items-center gap-8 mt-8">
+					<div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-8 mt-8">
 						<motion.button
 							whileHover={{ scale: 1.1 }}
 							whileTap={{ scale: 0.95 }}
 							onClick={handleYesClick}
-							className="bg-dusty-rose text-white px-8 py-4 rounded-full text-xl font-serif hover:bg-dusty-rose/90 transition-colors shadow-lg"
+							className="bg-dusty-rose text-white px-10 py-4 rounded-full text-xl font-serif hover:bg-dusty-rose/90 transition-colors shadow-lg w-48 sm:w-auto"
 						>
 							Yes! ❤️
 						</motion.button>
@@ -70,7 +70,7 @@ export default function Proposal() {
 							animate={{ x: noBtnPosition.x, y: noBtnPosition.y }}
 							onHoverStart={handleNoHover}
 							onClick={handleNoHover}
-							className="bg-charcoal/10 text-charcoal px-8 py-4 rounded-full text-xl font-serif hover:bg-charcoal/20 transition-colors"
+							className="bg-charcoal/10 text-charcoal px-10 py-4 rounded-full text-xl font-serif hover:bg-charcoal/20 transition-colors w-48 sm:w-auto"
 						>
 							No
 						</motion.button>
@@ -83,10 +83,10 @@ export default function Proposal() {
 					transition={{ duration: 0.5 }}
 					className="text-center"
 				>
-					<h2 className="font-serif text-5xl md:text-7xl text-dusty-rose mb-4">
+					<h2 className="font-serif text-4xl sm:text-5xl md:text-7xl text-dusty-rose mb-4 px-6 leading-tight">
 						I knew you&apos;d say yes! ❤️
 					</h2>
-					<p className="text-xl text-charcoal/70">
+					<p className="text-lg md:text-xl text-charcoal/70 px-4">
 						Best Valentine&apos;s Day Ever.
 					</p>
 				</motion.div>

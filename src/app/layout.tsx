@@ -14,12 +14,16 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "Para el amor de mi vida ❤️",
-  description: "Kenzie, eres lo mejor que me ha pasado. He preparado esta sorpresa para ti.",
+  title: "For Kenzie ❤️",
+  description: "A special Valentine's surprise for Kenzie.",
   openGraph: {
-    title: "Para el amor de mi vida ❤️",
-    description: "Kenzie, un pequeño detalle para recordarte cuánto te amo.",
+    title: "For Kenzie ❤️",
+    description: "A special Valentine's surprise for Kenzie.",
     type: "website",
+  },
+  twitter: {
+    title: "For Kenzie ❤️",
+    description: "A special Valentine's surprise for Kenzie.",
   },
 };
 
